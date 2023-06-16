@@ -318,6 +318,8 @@ class EditorFrame(var image: SVGImage, private var file: File? = null) : JFrame(
                 if (!saveFile.isFile || (OptionPane.overwriteFileDialog(path) == JOptionPane.YES_OPTION)) {
                     save(saveFile, onSaved)
                     file = saveFile
+                    updateTitle()
+                    updateStatusText()
                 }
             }
         }
