@@ -1,5 +1,10 @@
 # JPaint
 
+## Features
+* Lightweight (~9.5 MB)
+* Export to PNG and JPEG
+* Simple-to-use GUI
+
 ## License
 
     Free and open-source svg-editor.
